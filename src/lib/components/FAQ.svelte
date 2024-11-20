@@ -1,6 +1,5 @@
 <script>
 	import { FaqItem, Button } from '$components';
-	import twitterIcon from '$assets/icons/twitter.webp';
 
 	const faqs = [
 		{
@@ -49,7 +48,11 @@
 
 		<a href="https://x.com/KIZO_ES">
 			<p class="tw">
-				Hit me up on Twitter <img src={twitterIcon} class="twitter-icon" alt="" />
+				Hit me up on Twitter <img
+					src="https://raw.githubusercontent.com/35degrees/svelte-ebook-lesson/refs/heads/main/src/assets/icons/twitter.webp"
+					class="twitter-icon"
+					alt=""
+				/>
 			</p></a
 		>
 	</div>

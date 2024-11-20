@@ -1,5 +1,4 @@
 <script>
-	import chevronIcon from '$assets/icons/chevron-down.svg';
 	let { faq, isExpanded, ...props } = $props();
 </script>
 
@@ -10,7 +9,10 @@
 			{faq.answer}
 		</p>
 	</div>
-	<img src={chevronIcon} alt="chevron icon" />
+	<img
+		src="https://raw.githubusercontent.com/35degrees/svelte-ebook-lesson/a2d196e3e2ad883944f4ac3fc6556da369767183/src/assets/icons/chevron-down.svg"
+		alt="chevron icon"
+	/>
 </button>
 
 <style>

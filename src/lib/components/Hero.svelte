@@ -1,6 +1,4 @@
 <script>
-	import bookCover from '$assets/book_cover.png';
-	import phoneCover from '$assets/phone_cover.png';
 	import { Button } from '$components';
 
 	let { children } = $props();
@@ -11,8 +9,16 @@
 		<h1 class="purple">MOVE TO</h1>
 		<h1 class="purple mb-xs">SPAIN</h1>
 		<h4 class="semi-bold italic">There's no need to make the same mistakes I made.</h4>
-		<img class="book-cover" src={bookCover} alt="" />
-		<img class="phone-cover" src={phoneCover} alt="" />
+		<img
+			class="book-cover"
+			src="https://github.com/35degrees/svelte-ebook-lesson/blob/main/src/assets/book_cover.png?raw=true"
+			alt=""
+		/>
+		<img
+			class="phone-cover"
+			src="https://github.com/35degrees/svelte-ebook-lesson/blob/main/src/assets/phone_cover.png?raw=true"
+			alt=""
+		/>
 	</div>
 
 	<div class="hero-text text-center text-white">

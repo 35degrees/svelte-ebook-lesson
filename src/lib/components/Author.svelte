@@ -1,5 +1,4 @@
 <script>
-	import authorPic from '$assets/profile_pic.jpg';
 </script>
 
 <section class="landing-page-section">
@@ -21,7 +20,10 @@
 				lifestyle he once dreamed of.
 			</p>
 		</div>
-		<img src={authorPic} alt="author" />
+		<img
+			src="https://github.com/35degrees/svelte-ebook-lesson/blob/main/src/assets/profile_pic.jpg?raw=true"
+			alt="author"
+		/>
 	</div>
 </section>
 
